@@ -49,4 +49,8 @@ public class AlunoResource {
 		return alunoService.findByAluno(aluno); 
 	}
 	
+	public String ola() {
+		return "ola";
+	}
+	
 }
